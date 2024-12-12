@@ -196,17 +196,20 @@
         <h2>Projects</h2>
         <h3>Current project</h3>
         <div class="current-project">
-            <div class="current-project-card project-card full-width" data-project="dashboard">
+            <div class="current-project-card project-card full-width" data-project="healthsync">
                 <div class="project-content">
                     <img alt="Personal Dashboard" class="project-image"
-                         src="assets/images/Project Image/Movie.JPG"/>
+                         src="assets/images/Project Image/Hosp.JPG"/>
                     <div class="project-text">
-                        <h3>Movie Verse</h3>
-                        <p>Built Using Python(Django), HTML, CSS Java Script.<br> Developed a dynamic web application enabling users to create personalized profiles, share movie posters, upload YouTube trailer links, and contribute reviews and ratings for their favorite movies. 
-                            The platform fosters an engaging community for movie enthusiasts, providing an intuitive interface and seamless functionality.</p>
+                        <h3>Health Sync</h3>
+                        <p>Built Using Python (Django), HTML, CSS, JavaScript.<br>Developed a web app for a city hospital, enabling patients to book appointments with doctors by selecting from a categorized list by department. Users can schedule appointments by providing their name, email, and preferred date. Integrated 
+                            with a database for managing doctor availability and appointments, offering a user-friendly interface to simplify healthcare access.</p>
                         <div class="tech-stack">
                             <span class="tech-icon"><i class="fab fa-python tech-icon"></i></span>
                             <span class="tech-icon"><i class="fa-brands fa-bootstrap"></i></span>
+                            <span class="tech-icon"><i class="fa-brands fa-html5"></i></span>
+                            <span class="tech-icon"><i class="fa-brands fa-css3-alt"></i></span>
+                            <span class="tech-icon"><i class="fa-brands fa-js"></i></span>
                             <span class="tech-icon"><i class="fab fa-figma tech-icon"></i></span>
                         </div>
                         <div class="project-links">
@@ -236,6 +239,21 @@
                 </div>
             </div>
 
+            <div class="project-card" data-project="dashboard">
+                <h3>Movie Verse</h3>
+                <img src="assets/images/Project Image/Movie.JPG" alt="Companion Project Screenshot" class="project-image">
+                <p>Built Using Python(Django), HTML, CSS Java Script.<br> Developed a dynamic web application enabling users to create personalized profiles, share movie posters, upload YouTube trailer links, and contribute reviews and ratings for their favorite movies. 
+                    The platform fosters an engaging community for movie enthusiasts, providing an intuitive interface and seamless functionality.</p>
+                <div class="tech-stack">
+                    <span class="tech-icon"><i class="fab fa-python tech-icon"></i></span>
+                    <span class="tech-icon"><i class="fa-brands fa-bootstrap"></i></span>
+                    <span class="tech-icon"><i class="fab fa-figma tech-icon"></i></span>
+                </div>
+                <div class="project-links">
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
             <div class="project-card" data-project="fiica">
                 <h3>Moto Care App</h3>
                 <img src="assets/images/Project Image/P!.png" alt="Companion Project Screenshot" class="project-image">
@@ -259,7 +277,9 @@
                     This project demonstrates the fundamentals of GUI development and interaction using PyQt5.</p>
                 <div class="tech-stack">
                     <span class="tech-icon"><i class="fab fa-python tech-icon"></i></span>
-                    <span class="tech-icon"><i class="fa-solid fa-code"></i></span>
+                    <span class="tech-icon"><i class="fa-brands fa-html5"></i></span>
+                    <span class="tech-icon"><i class="fa-brands fa-css3-alt"></i></span>
+                    <span class="tech-icon"><i class="fa-brands fa-js"></i></span>
                 </div>
                 <div class="project-links">
                     <button class="read-more-btn">Read More</button>
@@ -458,6 +478,42 @@
     </section>
 
 </main>
+
+
+<div class="modal" id="modal-healthsync">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Health Sync</h2>
+        <!-- <a class="view-project-btn" href="https://github.com/ramsifavaskp/Movie-Verse" target="_blank">View Project</a> -->
+        <p class="modal-short-description">A dynamic web application designed for a city hospital to streamline doctor appointment bookings. Health Sync simplifies healthcare access by enabling users to view doctors by department, schedule appointments, and manage healthcare interactions efficiently.</p>
+        <hr class="modal-separator">
+        <div class="modal-long-description">
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Doctor Directory: Browse a categorized list of doctors by department, with detailed profiles for each doctor.</li>
+                <li>Appointment Booking: Patients can book specific doctors by providing their name, email, and preferred date, ensuring a seamless experience.</li>
+                <li>Database Integration: Robust backend to store and manage doctor availability, appointments, and patient data securely.</li>
+                <li>Responsive Design: A user-friendly interface accessible on desktops, tablets, and mobile devices.</li>
+                <li>Email Notifications: Automated email confirmations for booked appointments.</li>
+            </ul>
+            <h3>Technical Details:</h3>
+            <ul>
+                <li>Frontend: Built using HTML, CSS, and JavaScript for an intuitive and responsive user interface.</li>
+                <li>Backend: Developed using Python (Django) to manage server-side operations and database interactions.</li>
+                <li>Database: Integrated with a structured database (SQLite/MySQL) for managing user, doctor, and appointment data.</li>
+            </ul>
+            <h3>Challenges Overcome:</h3>
+            <li>Data Management: Designing an efficient database schema to handle diverse data types and large volumes of records.</li>
+            <li>User Experience: Creating an intuitive interface to ensure ease of use for patients of all demographics.</li>
+            <h3>Future Improvements:</h3>
+            <ul>
+                <li>Payment Gateway Integration: Adding support for online payment of consultation fees during booking.</li>
+                <li>Telemedicine Features: Enabling virtual consultations and real-time communication with doctors.</li>
+                <li>AI-Driven Recommendations: Implementing AI to suggest doctors or departments based on user symptoms or health history.</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="modal" id="modal-dashboard">
     <div class="modal-content">
